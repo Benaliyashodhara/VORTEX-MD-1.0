@@ -5,7 +5,7 @@ cmd(
   {
     pattern: "menu",
     alise: ["getmenu"],
-    react: "📔",
+    react: "📋",
     desc: "get cmd list",
     category: "main",
     filename: __filename,
@@ -60,40 +60,40 @@ cmd(
       let madeMenu = `👋 *Hello  ${pushname}*
 
 
-╔════════════════╗  
-  🍁 *VORTEX MD* 🍁  
-╚════════════════╝  
+╔═════════===═══════╗  
+  💕Queen Benali XD💕
+╚═════════===═══════╝  
 
 🎯 *MAIN COMMANDS*  
-  ❤️ .alive  
-  ❤️ .menu  
-  ❤️ .ai <text>  
-  ❤️ .system  
-  ❤️ .owner  
+  ✅ .alive  
+  ✅ .menu  
+  ✅.ai <text>  
+  ✅ .system  
+  ✅ .owner  
 
 📥 *DOWNLOAD COMMANDS*  
-  ❤️ .song <text>  
-  ❤️ .video <text>  
-  ❤️ .fb <link>  
+  ✅ .song <text>  
+  ✅.video <text>  
+  ✅ .fb <link>  
 
 👥 *GROUP COMMANDS*  
   ${menu.group}  
 
 🔒 *OWNER COMMANDS*  
-  ❤️ .restart  
-  ❤️ .update  
+  ✅ .restart  
+  ✅ .update  
 
 ✏️ *CONVERT COMMANDS*  
-  ❤️ .sticker <reply img>  
-  ❤️ .img <reply sticker>  
-  ❤️ .tr <lang> <text>  
-  ❤️ .tts <text>  
+  ✅ .sticker <reply img>  
+  ✅ .img <reply sticker>  
+  ✅.tr <lang> <text>  
+  ♠️.tts <text>  
 
 🔍 *SEARCH COMMANDS*  
   ${menu.search}  
 
-🍂 *𝐌𝐚𝐝𝐞 𝐛𝐲 𝗣𝗮𝗻𝘀𝗶𝗹𝘂 𝗡𝗲𝘁𝗵𝗺𝗶𝗻𝗮* 🍂  
-> ᐯㄖ尺ㄒ乇乂 几ᗪ 爪乇几卄
+💕 *𝐌𝐚𝐝𝐞 𝐛𝐲 Kaveeshara Uddeepa *  💕 
+> 𝔔𝔲𝔢𝔢𝔫 𝔅𝔢𝔫𝔞𝔩𝔦 𝔛𝔇
 `;
       await robin.sendMessage(
         from,
