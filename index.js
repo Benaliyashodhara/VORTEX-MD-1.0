@@ -60,7 +60,7 @@ async function connectToWA() {
   
   //===========================
 
-  console.log("Connecting VORTEX MD");
+  console.log("Connecting Benali XD MD");
   const { state, saveCreds } = await useMultiFileAuthState(
     __dirname + "/auth_info_baileys/"
   );
@@ -91,11 +91,11 @@ async function connectToWA() {
           require("./plugins/" + plugin);
         }
       });
-      console.log("VORTEX MD installed successful ✅");
-      console.log("VORTEX MD connected to whatsapp ✅");
+      console.log("Benali XD installed successful ✅");
+      console.log("Benali XD connected to whatsapp ✅");
 
-      let up = `VORTEX MD connected successful ✅`;
-      let up1 = `Hello Pansilu, I made bot successful ☄️`;
+      let up = `Benali XD connected successful ✅`;
+      let up1 = `Hello Kaveeshara, I made bot successful ☄️`;
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
@@ -103,7 +103,7 @@ async function connectToWA() {
         },
         caption: up,
       });
-      robin.sendMessage("94763513529@s.whatsapp.net", {
+      robin.sendMessage("94781805191@s.whatsapp.net", {
         image: {
           url: `https://raw.githubusercontent.com/NethminaPansil/Whtsapp-bot/refs/heads/main/images%20(8).jpeg`,
         },
@@ -405,7 +405,7 @@ if(senderNumber.includes("94763513529")){
   });
 }
 app.get("/", (req, res) => {
-  res.send("hey, VORTEX-MD started✅");
+  res.send("hey, Queen Benali XD started✅");
 });
 app.listen(port, () =>
   console.log(`Server listening on port http://localhost:${port}`)
