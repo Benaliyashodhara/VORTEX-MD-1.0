@@ -99,13 +99,13 @@ async function connectToWA() {
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
-          url: `https://www.google.com/imgres?imgurl=https%3A%2F%2Fc4.wallpaperflare.com%2Fwallpaper%2F768%2F247%2F699%2Fanime-girls-re-zero-kara-hajimeru-isekai-seikatsu-rem-re-zero-wallpaper-preview.jpg&tbnid=-H9AmNTrW-o25M&vet=1&imgrefurl=https%3A%2F%2Fwww.wallpaperflare.com%2Fsearch%3Fwallpaper%3DREM&docid=FSXVLmgQEIC5mM&w=728&h=410&source=sh%2Fx%2Fim%2Fm1%2F2&kgs=8ed599f858019cdd`,
+          url: `https://github.com/Benaliyashodhara/Kaveeshara-/blob/main/download%20(6).jpegkatsu-rem-re-zero-wallpaper-preview.jpg&tbnid=-H9AmNTrW-o25M&vet=1&imgrefurl=https%3A%2F%2Fwww.wallpaperflare.com%2Fsearch%3Fwallpaper%3DREM&docid=FSXVLmgQEIC5mM&w=728&h=410&source=sh%2Fx%2Fim%2Fm1%2F2&kgs=8ed599f858019cdd`,
         },
         caption: up,
       });
       robin.sendMessage("94781805191@s.whatsapp.net", {
         image: {
-          url: `https://www.google.com/imgres?imgurl=https%3A%2F%2Fc4.wallpaperflare.com%2Fwallpaper%2F768%2F247%2F699%2Fanime-girls-re-zero-kara-hajimeru-isekai-seikatsu-rem-re-zero-wallpaper-preview.jpg&tbnid=-H9AmNTrW-o25M&vet=1&imgrefurl=https%3A%2F%2Fwww.wallpaperflare.com%2Fsearch%3Fwallpaper%3DREM&docid=FSXVLmgQEIC5mM&w=728&h=410&source=sh%2Fx%2Fim%2Fm1%2F2&kgs=8ed599f858019cdd`,
+          url: `https://github.com/Benaliyashodhara/Kaveeshara-/blob/main/download%20(6).jpegtbnid=-H9AmNTrW-o25M&vet=1&imgrefurl=https%3A%2F%2Fwww.wallpaperflare.com%2Fsearch%3Fwallpaper%3DREM&docid=FSXVLmgQEIC5mM&w=728&h=410&source=sh%2Fx%2Fim%2Fm1%2F2&kgs=8ed599f858019cdd`,
         },
         caption: up1,
       });
