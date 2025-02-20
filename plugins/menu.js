@@ -61,7 +61,7 @@ cmd(
 
 
 ╔═════════===═══════╗  
-  💕Queen Benali XD💕
+     💕Queen Benali XD💕
 ╚═════════===═══════╝  
 
 🎯 *MAIN COMMANDS*  
@@ -99,7 +99,7 @@ cmd(
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/NethminaPansil/Whtsapp-bot/refs/heads/main/Screenshot_20250210-222115%7E2.png",
+            url: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fc4.wallpaperflare.com%2Fwallpaper%2F768%2F247%2F699%2Fanime-girls-re-zero-kara-hajimeru-isekai-seikatsu-rem-re-zero-wallpaper-preview.jpg&tbnid=-H9AmNTrW-o25M&vet=1&imgrefurl=https%3A%2F%2Fwww.wallpaperflare.com%2Fsearch%3Fwallpaper%3DREM&docid=FSXVLmgQEIC5mM&w=728&h=410&source=sh%2Fx%2Fim%2Fm1%2F2&kgs=8ed599f858019cdd",
           },
           caption: madeMenu,
         },
