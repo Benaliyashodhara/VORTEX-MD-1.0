@@ -5,7 +5,7 @@ const { ytmp3 } = require("@vreden/youtube_scraper");
 cmd(
   {
     pattern: "song",
-    react: "🎵",
+    react: "🎶",
     desc: "Download Song",
     category: "download",
     filename: __filename,
@@ -40,7 +40,7 @@ cmd(
     }
   ) => {
     try {
-      if (!q) return reply("*Give me a Name or URL* 🌚❤️");
+      if (!q) return reply("*Give me a Name or URL* ❤️");
 
       // Search for the video
       const search = await yts(q);
@@ -49,7 +49,7 @@ cmd(
 
       // Song metadata description
       let desc = `
-*❤️VORTEX SONG DOWNLOADER❤️*
+*❤️ Queen Benali Xd SONG DOWNLOADER ❤️*
 
 👻 *title* : ${data.title}
 👻 *description* : ${data.description}
@@ -58,7 +58,7 @@ cmd(
 👻 *views* : ${data.views}
 👻 *url* : ${data.url}
 
-𝐌𝐚𝐝𝐞 𝐛𝐲 PANSILU
+𝐌𝐚𝐝𝐞 𝐛𝐲 KAVEESHARA.
 `;
 
       // Send metadata thumbnail message
@@ -105,7 +105,7 @@ cmd(
         { quoted: mek }
       );
 
-      return reply("*Thanks for using my bot* 🌚❤️");
+      return reply("*Thanks for using my bot* ❤️");
     } catch (e) {
       console.log(e);
       reply(`❌ Error: ${e.message}`);
