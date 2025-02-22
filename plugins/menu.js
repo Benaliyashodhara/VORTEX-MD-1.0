@@ -60,40 +60,45 @@ cmd(
       let madeMenu = `👋 *Hello  ${pushname}*
 
 
-╔═════════===═══════╗  
-     💕Queen Benali XD💕
-╚═════════===═══════╝  
+╔════════════════╗  
+     💕  QUEEN BENALI XD 💕
+╚════════════════╝  
 
 🎯 *MAIN COMMANDS*  
   ✅ .alive  
   ✅ .menu  
-  ✅.ai <text>  
+  ✅ .ai <text>  
   ✅ .system  
   ✅ .owner  
 
 📥 *DOWNLOAD COMMANDS*  
   ✅ .song <text>  
-  ✅.video <text>  
+  ✅ .video <text>  
   ✅ .fb <link>  
+  ✅ .upload <animepahe d.link>
+  ✅ .sinhala <text>
+  ✅ .dl <d.link>
 
 👥 *GROUP COMMANDS*  
-  ${menu.group}  
+  ✅ .mute
+  ✅ .kick
 
 🔒 *OWNER COMMANDS*  
-  ✅ .restart  
-  ✅ .update  
+  👉✅ .restart    
 
 ✏️ *CONVERT COMMANDS*  
   ✅ .sticker <reply img>  
   ✅ .img <reply sticker>  
-  ✅.tr <lang> <text>  
-  ✅.tts <text>  
+  ✅ .tr <lang> <text>  
+  ✅ .tts <text>  
 
 🔍 *SEARCH COMMANDS*  
-  ${menu.search}  
+  ✅ .anime <text>
+  ✅ .hirunews
+  
 
-💕 *𝐌𝐚𝐝𝐞 𝐛𝐲 Kaveeshara Uddeepa *  💕 
-> 𝔔𝔲𝔢𝔢𝔫 𝔅𝔢𝔫𝔞𝔩𝔦 𝔛𝔇
+Made by kaveeshara Uddeepa 
+> 💕 Qᵤₑₑₙ Bₑₙₐₗᵢ ₓD  💕
 `;
       await robin.sendMessage(
         from,
@@ -110,4 +115,8 @@ cmd(
       reply(`${e}`);
     }
   }
-);
+); 
+
+
+
+      
