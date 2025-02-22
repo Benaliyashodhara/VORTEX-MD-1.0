@@ -87,7 +87,7 @@ cmd(
   ✅ .sticker <reply img>  
   ✅ .img <reply sticker>  
   ✅.tr <lang> <text>  
-  ♠️.tts <text>  
+  ✅.tts <text>  
 
 🔍 *SEARCH COMMANDS*  
   ${menu.search}  
@@ -99,7 +99,7 @@ cmd(
         from,
         {
           image: {
-            url: "https://www.google.com/search?q=rem+4k+wallpaper&client=ms-android-xiaomi-rev1&sca_esv=b21c03e197943224&udm=2&biw=360&bih=629&sxsrf=AHTn8zphb9dETuqiAdSXGT1J3LsVEUX6jQ%3A1739808761584&ei=-V-zZ460I_WsseMP0LqFmAc&oq=rem+4k+wallpaper&gs_lp=EhJtb2JpbGUtZ3dzLXdpei1pbWciEHJlbSA0ayB3YWxscGFwZXIyCBAAGBMYBxgeMggQABgTGAcYHjIIEAAYExgHGB4yCBAAGBMYBxgeMggQABgTGAcYHkjZPFDjGVjrM3AAeACQAQKYAfoJoAGFN6oBBzUtMi4zLjO4AQPIAQD4AQGYAgSgArsawgIEEAAYHsICBhAAGAgYHsICBhAAGAcYHpgDAIgGAZIHCTQtMS4xLjEuMaAH_Rc&sclient=mobile-gws-wiz-img#vhid=-H9AmNTrW-o25M&vssid=mosaicai-seikatsu-rem-re-zero-wallpaper-preview.jpg&tbnid=-H9AmNTrW-o25M&vet=1&imgrefurl=https%3A%2F%2Fwww.wallpaperflare.com%2Fsearch%3Fwallpaper%3DREM&docid=FSXVLmgQEIC5mM&w=728&h=410&source=sh%2Fx%2Fim%2Fm1%2F2&kgs=8ed599f858019cdd",
+            url: "https://github.com/Benaliyashodhara/Kaveeshara-/blob/main/728203.jpg",
           },
           caption: madeMenu,
         },
