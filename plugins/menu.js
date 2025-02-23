@@ -4,7 +4,7 @@ const config = require('../config');
 cmd(
   {
     pattern: "menu",
-    alise: ["getmenu"],
+    alias: ["getmenu"], // Fixed 'alise' to 'alias'
     react: "📋",
     desc: "get cmd list",
     category: "main",
@@ -40,6 +40,7 @@ cmd(
     }
   ) => {
     try {
+      // Build the menu dynamically based on the commands array
       let menu = {
         main: "",
         download: "",
@@ -49,16 +50,15 @@ cmd(
         search: "",
       };
 
+      // Loop through commands to populate the menu categories
       for (let i = 0; i < commands.length; i++) {
         if (commands[i].pattern && !commands[i].dontAddCommandList) {
-          menu[
-            commands[i].category
-          ] += `${config.PREFIX}${commands[i].pattern}\n`;
+          menu[commands[i].category] += `${config.PREFIX}${commands[i].pattern}\n`;
         }
       }
 
-      let madeMenu = `👋 *Hello  ${pushname}*
-
+      // Construct the message with dynamic menu content
+      let madeMenu = `👋 *Hello ${pushname}*
 
 ╔════════════════╗  
      💕  QUEEN BENALI XD 💕
@@ -95,28 +95,26 @@ cmd(
 🔍 *SEARCH COMMANDS*  
   ✅ .anime <text>
   ✅ .hirunews
-  
 
-Made by kaveeshara Uddeepa 
-> 💕 Qᵤₑₑₙ Bₑₙₐₗᵢ ₓD  💕
+Made by Kaveeshara Uddeepa  
+> 💕 Qᵤₑₑₙ Bₑₙₐₗᵢ ₓD 💕
 `;
+
+      // Send the message with an image and the menu
       await robin.sendMessage(
         from,
         {
           image: {
-            url: "https://github.com/Benaliyashodhara/Kaveeshara-/blob/main/728203.jpg",
+            url: "https://raw.githubusercontent.com/Benaliyashodhara/Kaveeshara-/main/728203.jpg", // Corrected the image URL
           },
           caption: madeMenu,
         },
-        { quoted: mek }
+        { quoted: mek } // Ensure the original message is quoted
       );
     } catch (e) {
       console.log(e);
       reply(`${e}`);
     }
   }
-); 
-
-
-
+);
       
