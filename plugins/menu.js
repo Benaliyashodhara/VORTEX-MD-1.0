@@ -105,7 +105,7 @@ Made by Kaveeshara Uddeepa
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Benaliyashodhara/Kaveeshara-/main/728203.jpg", // Corrected the image URL
+            url: "https://raw.githubusercontent.com/Benaliyashodhara/Kaveeshara-/refs/heads/main/728203.jpg?token=GHSAT0AAAAAAC7BCFEPEETYBUEA6QFBTMY2Z54SHCA", // Corrected the image URL
           },
           caption: madeMenu,
         },
