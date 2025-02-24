@@ -101,7 +101,7 @@ async function connectToWA() {
         let up = `Benali XD connected successfully ✅`;
         robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
           image: {
-            url: `https://github.com/Benaliyashodhara/Kaveeshara-/blob/main/738559.jpg`,
+            url: `https://raw.githubusercontent.com/Benaliyashodhara/Kaveeshara-/refs/heads/main/777547.jpg?token=GHSAT0AAAAAAC7BCFEOPAQTRHNCBGA4OQCOZ54SOWA`,
           },
           caption: up,
         });
