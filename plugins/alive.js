@@ -16,7 +16,7 @@ async (robin, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, se
         // Sending audio message
         await robin.sendMessage(from, {
             audio: { 
-                url: "https://github.com/NethminaPansil/Whtsapp-bot/raw/refs/heads/main/ElevenLabs_2025-02-17T10_20_51_Aria_pre_s50_sb75_se0_b_m2(2).mp3" 
+                url: "https://github.com/Benaliyashodhara/Kaveeshara-/blob/main/Record-2025-02-21-22-41-27.mp3" 
             }, 
             mimetype: 'audio/mpeg', 
             ptt: true
