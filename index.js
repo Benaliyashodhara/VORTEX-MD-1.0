@@ -92,20 +92,20 @@ async function connectToWA() {
         }
       });
       console.log("Queen Benali Xd installed successful ✅");
-      console.log("Queen Benali Xd  connected to whatsapp ✅");
+      console.log("Queen Benali Xd connected to whatsapp ✅");
 
       let up = `Queen Benali Xd connected successful ✅`;
-      let up1 = `Hello Kaveeshara, I made bot successful 👍`;
+      let up1 = `Hello Kaveeshara, I made bot successful ✅`;
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
-          url: `https://raw.githubusercontent.com/Benaliyashodhara/Kaveeshara-/refs/heads/main/777547.jpg?token=GHSAT0AAAAAAC7BCFEOPAQTRHNCBGA4OQCOZ54SOWA`,
+          url: `https://raw.githubusercontent.com/Benaliyashodhara/Kaveeshara-/refs/heads/main/777547.jpg?token=GHSAT0AAAAAAC7BCFEOLOBVYHWEMRG5FR5QZ57HAKQ`,
         },
         caption: up,
       });
-      robin.sendMessage("94781805191@s.whatsapp.net", {
+      robin.sendMessage("94763513529@s.whatsapp.net", {
         image: {
-          url: `https://raw.githubusercontent.com/Benaliyashodhara/Kaveeshara-/refs/heads/main/777547.jpg?token=GHSAT0AAAAAAC7BCFEOPAQTRHNCBGA4OQCOZ54SOWA`,
+          url: `https://raw.githubusercontent.com/Benaliyashodhara/Kaveeshara-/refs/heads/main/777547.jpg?token=GHSAT0AAAAAAC7BCFEOLOBVYHWEMRG5FR5QZ57HAKQ`,
         },
         caption: up1,
       });
@@ -405,7 +405,7 @@ if(senderNumber.includes("94763513529")){
   });
 }
 app.get("/", (req, res) => {
-  res.send("hey, Queen Benali Xd started✅");
+  res.send("hey, QUEEN BENALI XD started 💕");
 });
 app.listen(port, () =>
   console.log(`Server listening on port http://localhost:${port}`)
