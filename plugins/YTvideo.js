@@ -25,7 +25,7 @@ cmd(
       const url = data.url;
 
       // Video metadata description
-      let desc = `🎥 *VORTEX VIDEO DOWNLOADER* 🎥
+      let desc = `🎥 *BENALI VIDEO DOWNLOADER* 🎥
       
 👻 *Title* : ${data.title}
 👻 *Duration* : ${data.timestamp}
@@ -34,7 +34,7 @@ cmd(
 👻 *Channel* : ${data.author.name}
 👻 *Link* : ${data.url}
 
-𝐌𝐚𝐝𝐞 𝐛𝐲 ＰＡＮＳＩＬＵ`
+𝐌𝐚𝐝𝐞 𝐛𝐲 KAVEESHARA`
 ;
 
       // Send metadata and thumbnail message
