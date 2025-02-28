@@ -5,7 +5,7 @@ cmd(
   {
     pattern: "menu",
     alise: ["getmenu"],
-    react: "📔",
+    react: "📋",
     desc: "get cmd list",
     category: "main",
     filename: __filename,
@@ -58,52 +58,55 @@ cmd(
       }
 
       let madeMenu = `👋 *Hello  ${pushname}*
-╔════════════════╗  
-     🍁 *VORTEX MD* 🍁  
-╚════════════════╝  
-📜 MAIN COMMANDS
-🔹 .alive
-🔹 .menu
-🔹 .ai <text>
-🔹 .system
-🔹 .owner
+╔════◇◆◇════╗
+✨ Queen Benali XD ✨
+╚════◇◆◇════╝
 
-📥 DOWNLOAD COMMANDS
-🔹 .song <text>
-🔹 .video <text>
-🔹 .fb <link>
-🔹 .upload <animepahe link>
-🔹 .sinhala <text>
-🔹 .dl <d.link>
-🔹 .rtik <text>
+❄️ Embrace the Zero, Rewrite the Fate ❄️
 
-👥 GROUP COMMANDS
-🔹 .mute
-🔹 .kick
+📜 COMMANDS DIRECTORY
+🚀 .alive - Check bot status
+📜 .menu - View command list
+🤖 .ai <text> - Chat with AI
+⚙️ .system - Get system info
+👑 .owner - Show bot owner
 
-🔒 OWNER COMMANDS
-🔹 .restart
+🎵 MEDIA COMMANDS
+🎶 .song <text> - Download song
+📽 .video <text> - Get video
+📱 .fb <link> - Download Facebook video
+🔗 .upload <animepahe link> - Upload anime
+📝 .sinhala <text> - Sinhala translation
+📂 .dl <d.link> - Direct link downloader
+🎭 .rtik <text> - TikTok downloader
 
-✏️ CONVERT COMMANDS
-🔹 .sticker <reply img>
-🔹 .img <reply sticker>
-🔹 .tr <lang> <text>
-🔹 .tts <text>
-🔹 .gen <text>
-🔹 .gen2 <text>
+🛡 GROUP CONTROL
+🔇 .mute - Silence chat
+👢 .kick - Remove user
 
-🔍 SEARCH COMMANDS
-🔹 .anime <text>
-🔹 .hirunews
-🔹 .weather <text>
-🔹 .img <text>
-🔹 .itnnews <text>
+🔒 OWNER EXCLUSIVES
+🔄 .restart - Restart bot
 
-╔══════════⚔️═══════════╗  
-          *Made by Pansilu Nethmina*
-          > ᐯㄖ尺ㄒ乇乂 几ᗪ 爪乇几卄
-╚══════════⚔️═══════════╝
+🖌 UTILITY COMMANDS
+🎨 .sticker <reply img> - Convert to sticker
+📸 .img <reply sticker> - Sticker to image
+🌍 .tr <lang> <text> - Translate text
+🗣 .tts <text> - Text to speech
+🖊 .gen <text> - Generate text-based image
+🎭 .gen2 <text> - Advanced text-to-image
 
+🔎 SEARCH COMMANDS
+🔍 .anime <text> - Find anime info
+📰 .hirunews - Get Hiru news
+🌦 .weather <text> - Weather updates
+🖼 .img <text> - Image search
+📰 .itnnews <text> - ITN news
+
+╔═══════◇◆◇═══════╗
+"Even if fate is rewritten, the struggle remains."
+~ Inspired by Re:Zero
+> Created by Kaveeshara
+╚═══════◇◆◇═══════╝
 `;
       await robin.sendMessage(
         from,
