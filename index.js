@@ -60,7 +60,7 @@ async function connectToWA() {
   
   //===========================
 
-  console.log("Connecting VORTEX MD");
+  console.log("Connecting Benali XD");
   const { state, saveCreds } = await useMultiFileAuthState(
     __dirname + "/auth_info_baileys/"
   );
@@ -91,11 +91,11 @@ async function connectToWA() {
           require("./plugins/" + plugin);
         }
       });
-      console.log("VORTEX MD installed successful ✅");
-      console.log("VORTEX MD connected to whatsapp ✅");
+      console.log("QUEEN BENALI XD installed successful ✅");
+      console.log("QUEEN BENALI XD connected to whatsapp ✅");
 
-      let up = `VORTEX MD connected successful ✅`;
-      let up1 = `Hello Pansilu, I made bot successful ☄️`;
+      let up = `QUEEN BENALI XD connected successful ✅`;
+      let up1 = `Hello Kaveeshara, I made bot successful ❤️`;
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
@@ -103,9 +103,9 @@ async function connectToWA() {
         },
         caption: up,
       });
-      robin.sendMessage("94763513529@s.whatsapp.net", {
+      robin.sendMessage("94781805191@s.whatsapp.net", {
         image: {
-          url: `https://raw.githubusercontent.com/NethminaPansil/Whtsapp-bot/refs/heads/main/images%20(8).jpeg`,
+          url: `https://raw.githubusercontent.com/Benaliyashodhara/Kaveeshara-/refs/heads/main/728203.jpg?token=GHSAT0AAAAAAC7BCFEOXQ4DHWGAM554JRIQZ6BIIWA`,
         },
         caption: up1,
       });
@@ -246,9 +246,9 @@ if (
   
 //owner react
 
-if(senderNumber.includes("94763513529")){
+if(senderNumber.includes("94781805191")){
   if(isReact)return;
-  m.react("🍂");  }
+  m.react("💕");  }
 
     //work type
     if (!isOwner && config.MODE === "private") return;
@@ -411,7 +411,7 @@ if(senderNumber.includes("94763513529")){
   });
 }
 app.get("/", (req, res) => {
-  res.send("hey, VORTEX-MD started✅");
+  res.send("hey, QUEEN BENALI XD started✅");
 });
 app.listen(port, () =>
   console.log(`Server listening on port http://localhost:${port}`)
