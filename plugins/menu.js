@@ -112,7 +112,7 @@ cmd(
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/NethminaPansil/Whtsapp-bot/refs/heads/main/tumblr_1d7104aa11efcf7ebbaab88a184a7279_25602a04_1280%7E2.jpg",
+            url: "https://github.com/NethminaPansil/Whtsapp-bot/raw/refs/heads/main/20250217_Hello_,%20Ho.mp3",
           },
           caption: madeMenu,
         },
