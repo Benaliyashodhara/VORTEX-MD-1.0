@@ -15,7 +15,7 @@ module.exports = {
   AUTO_VOICE:process.env.AUTO_VOICE|| "true",
   AUTO_STICKER:process.env.AUTO_STICKER|| "true",
   AUTO_REPLY:process.env.AUTO_REPLY|| "true",
-  GEMINI_API_KEY:process.env.GEMINI_API_KEY || "AIzaSyDrhALyWLk7RN40C1sX5a03XVk8tO48P_8",
-  MOVIE_API_KEY:process.env.MOVIE_API_KEY || "sky|d154108e41377cceb22ef92434509bc9081ae46b",
+  GEMINI_API_KEY:process.env.GEMINI_API_KEY || "AIzaSyChi4GvBSne3ioNVXGnwMomImVJ2Vb7z80",
+  MOVIE_API_KEY:process.env.MOVIE_API_KEY || "sky|0933c845af0e122be186adda178a669317e00660",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 };
