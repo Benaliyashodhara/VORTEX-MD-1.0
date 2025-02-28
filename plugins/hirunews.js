@@ -30,11 +30,11 @@ cmd({
             // Remove "By SuhasBro✨" text from Power if present
             const cleanedPower = Power.replace(/By SuhasBro✨/g, "").trim();
 
-            let newsInfo = "𝐕𝐎𝐑𝐓𝐄𝐗-𝐌𝐃 𝐇𝐢𝐫𝐮 𝐍𝐞𝐰𝐬 𝐔𝐩𝐝𝐚𝐭𝐞 📰\n\n";
+            let newsInfo = "𝗕𝗘𝗡𝗔𝗟𝗜 𝐇𝐢𝐫𝐮 𝐍𝐞𝐰𝐬 𝐔𝐩𝐝𝐚𝐭𝐞 📰\n\n";
             newsInfo += `✨ *Title*: ${title}\n\n`;
             newsInfo += `📑 *Description*:\n${text}\n\n`;
             newsInfo += `⛓️‍💥 *Url*: www.hirunews.lk\n\n`;
-            newsInfo += `> *© Powered By Pansilu Nethmina | VORTEX MD*\n\n`;
+            newsInfo += `> *© Powered By 𝗞𝗮𝘃𝗲𝗲𝘀𝗵𝗮𝗿𝗮 | Queen Benali XD*\n\n`;
             newsInfo += `*${cleanedPower}*`;
 
             if (image) {
